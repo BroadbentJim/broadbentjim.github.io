@@ -105,7 +105,7 @@ author:
   name             : "Jim Broadbent"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
-  location         : "Emmanuel College Cambridge"
+  location         : "Fields Institute, Toronto, CN"
   email            :
   links:
     - label: "Email"
@@ -248,7 +248,9 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
+    
+head_scripts:
+  - GoatCounter.js
 
 # Defaults
 defaults:
